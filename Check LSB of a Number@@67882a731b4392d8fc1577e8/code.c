@@ -6,10 +6,10 @@ int main(){
     scanf("%d",&a);
 
     if(a & 1){
-        print("Set");
+        printf("Set");
     }
     else{
-        print("False");
+        printf("Not Set");
     }
 
     return 0;
