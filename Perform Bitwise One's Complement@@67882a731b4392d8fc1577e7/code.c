@@ -2,10 +2,10 @@
 
 int main(){
 
-    int a,b,c;
-    scanf("%d %d",&a,&b);
+    int a,c;
+    scanf("%d",&a);
 
-    c = a~b;
+    c = ~a;
     printf("%d",c);
 
     return 0;
