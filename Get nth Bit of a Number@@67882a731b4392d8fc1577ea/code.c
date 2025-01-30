@@ -12,6 +12,7 @@ int main(){
         printf("0")
     }
     return 0;
+}    
 
 
     return 0;
