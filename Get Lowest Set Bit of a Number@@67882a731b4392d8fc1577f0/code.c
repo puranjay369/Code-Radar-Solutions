@@ -6,7 +6,7 @@ void main(){
     scanf("%u",&a);
 
     a = a & (-a);
-    printf("%u",a)
+    printf("%u",a);
 
     
 
