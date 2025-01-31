@@ -12,7 +12,7 @@ int main(){
     scanf("%u",&a);
 
     unsigned int lowestsetbit = getlowestsetbit(a);
-    printf("%u\n",lowestsetbit); 
+    printf("%u",lowestsetbit); 
     
     return 0;
 
