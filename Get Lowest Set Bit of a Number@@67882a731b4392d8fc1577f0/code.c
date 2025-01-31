@@ -1,12 +1,13 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int main(){
 
-    int a;
-    scanf("%d",&a);
+    unsigned int a,b;
+    scanf("%u",&a);
 
-    a = a - 1;
-    printf("%d",a);
+    b = a & (-a);
+    printf("%u",b);
+
 
     return 0;
 }
