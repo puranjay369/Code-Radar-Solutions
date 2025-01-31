@@ -5,7 +5,8 @@ void main(){
     unsigned int a;
     scanf("%u",&a);
 
-    return a & (-a);
+    a = a & (-a);
+    printf("%u",a)
 
     
 
