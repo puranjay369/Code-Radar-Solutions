@@ -14,6 +14,6 @@ int main(){
     unsigned int lowestsetbit = getlowestsetbit(a);
     printf("%u\n",lowestsetbit); 
     
-    
+    return 0;
 
 }
