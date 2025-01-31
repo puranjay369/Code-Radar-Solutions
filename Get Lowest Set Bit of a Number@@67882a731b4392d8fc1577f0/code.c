@@ -2,10 +2,10 @@
 
 int main(){
 
-   unsigned int a;
+    int a;
     scanf("%d",&a);
 
-    a = a & (-a);
+    a = a - 1;
     printf("%d",a);
 
     return 0;
