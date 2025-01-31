@@ -3,7 +3,7 @@
 int main(){
 
     int a;
-    scanf("%d",a);
+    scanf("%d",&a);
 
     if(a%2==0){
         printf("Even");
@@ -11,8 +11,8 @@ int main(){
     else{
         printf("Odd");
     }
+    
 
 
-
-    returmn 0;
+    return 0;
 }
