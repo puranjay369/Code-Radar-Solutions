@@ -2,8 +2,8 @@
 
 int main(){
 
-    double a;
-    scanf("%lf",a);
+    int a;
+    scanf("%d",a);
 
     if(a%2==0){
         printf("Even");
