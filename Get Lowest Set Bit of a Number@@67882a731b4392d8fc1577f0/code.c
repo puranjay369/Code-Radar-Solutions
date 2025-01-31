@@ -1,19 +1,21 @@
 #include<stdio.h>
 
-unsigned int getlowestsetbit(unsigned int a){
-
-    return a & (-a);
+int getl(int num){
+    if (num ==0){
+        return -1;
+    }
+    int pos =0;
+    while ((num&1)==0){
+        num>>=1;
+        pos++;
+    }
+    return pos;
 }
 
-
 int main(){
-
-    unsigned int a;
-    scanf("%u",&a);
-
-    unsigned int lowestsetbit = getlowestsetbit(a);
-    printf("%u",lowestsetbit); 
-    
+    int num;
+    scanf("%d",&num);
+    int pos = getl(num);
+    printf("%d",pos);
     return 0;
-
 }
