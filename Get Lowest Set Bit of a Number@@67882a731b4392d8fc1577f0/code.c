@@ -1,11 +1,19 @@
 #include<stdio.h>
 
-void main(){
+unsigned int getlowestsetbit(unsigned int a){
+
+    return a & (-a);
+}
+
+
+int main(){
 
     unsigned int a;
     scanf("%u",&a);
 
-    return a & (-a);
+    unsigned int lowestsetbit = getlowestsetbit(a);
+    printf("%u\n",lowestsetbit); 
+    
     
 
 }
