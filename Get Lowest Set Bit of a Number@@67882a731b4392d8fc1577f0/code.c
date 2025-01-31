@@ -2,11 +2,11 @@
 
 int main(){
 
-    unsigned int a,b;
+    unsigned int a;
     scanf("%u",&a);
 
-    b = a & (-a);
-    printf("%u",b);
+    a = a & (-a);
+    printf("%u",a);
 
 
     return 0;
