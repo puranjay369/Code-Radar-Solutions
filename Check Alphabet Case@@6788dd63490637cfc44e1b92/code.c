@@ -9,8 +9,11 @@ int main(){
     if(a = toupper(a)){
         printf("Uppercase");
     }
-    else{
+    elif(a = tolower(a)){
         printf("Lowercase");
+    }
+    else{
+        printf("Not an alphabet");
     }
 
 
