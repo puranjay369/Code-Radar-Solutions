@@ -9,7 +9,7 @@ int main(){
     if(a = toupper(a)){
         printf("Uppercase");
     }
-    elif(a = tolower(a)){
+    else if(a = tolower(a)){
         printf("Lowercase");
     }
     else{
