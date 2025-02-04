@@ -6,10 +6,10 @@ int main(){
     char a;
     scanf("%c",&a);
 
-    if(a = toupper(a)){
+    if(isupper(a)){
         printf("Uppercase");
     }
-    else if(a = tolower(a)){
+    else if(islower(a)){
         printf("Lowercase");
     }
     else{
