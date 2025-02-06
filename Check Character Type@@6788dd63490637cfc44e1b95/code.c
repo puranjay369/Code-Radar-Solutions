@@ -12,6 +12,12 @@ int main(){
     else if(isdigit(a)){
         printf("Digit");
     }
+    else if(isalpha(a)){
+        printf("Consonant");
+    }
+    else{
+        printf("Special Character");
+    }
 
 
     return 0;
