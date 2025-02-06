@@ -29,8 +29,9 @@
             break;
         case '7':
             printf("Sunday");
-            break;    
-        
+            break; 
+
+        default;
             
             
         }
