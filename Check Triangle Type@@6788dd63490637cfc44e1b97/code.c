@@ -11,7 +11,7 @@ int main(){
     else if(a==b!=c||a==c!=b||c==b!=a){
         printf("Isosceles");
     }
-    else{
+    else if(a!=b&&b!=c&&c!=a){
         printf("Scalene");
     }
 
