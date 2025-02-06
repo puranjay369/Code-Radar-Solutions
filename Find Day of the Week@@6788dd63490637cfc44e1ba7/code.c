@@ -3,37 +3,31 @@
 
     int main(){
 
-        int grade;
+        int a;
 
-        scanf("%d",&grade);
+        scanf("%d",&a);
 
-        switch (grade)
-        {
-        case '1':
-            printf("Monday");
-            break;
-        case '2':
-            printf("Tuesday");
-            break;
-        case '3':
-            printf("Wednesday");
-            break;
-        case '4':
-            printf("Thursday");
-            break;        
-        case '5':
-            printf("Friday");
-            break;
-        case '6':
-            printf("Saturday");
-            break;
-        case '7':
-            printf("Sunday");
-            break; 
-            
-            
+        if(a==1){
+            printf("Monday")
         }
-
+        else if(a==2){
+            printf("Tuesady")
+        }
+        else if(a==3){
+            printf("Wednesday")
+        }
+        else if(a==4){
+            printf("Thursday")
+        }
+        else if(a==5){
+            printf("Friday")
+        }
+        else if(a==6){
+            printf("Saturday")
+        }
+        else if(a==7){
+            printf("Sunday")
+        }
 
         return 0;
     }
