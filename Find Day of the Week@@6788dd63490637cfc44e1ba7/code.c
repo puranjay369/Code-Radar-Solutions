@@ -8,7 +8,6 @@
 
         int grade;
 
-        printf("enter your grade: ");
         scanf("%d",&grade);
 
         switch (grade)
