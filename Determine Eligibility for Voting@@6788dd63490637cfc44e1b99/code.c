@@ -6,10 +6,10 @@ int main(){
     scanf("%d",&a);
 
     if(a<18){
-        printf("Not Eligble");
+        printf("Not Eligible");
     }
     else{
-        printf("Eligble");
+        printf("Eligible");
     }
 
 
