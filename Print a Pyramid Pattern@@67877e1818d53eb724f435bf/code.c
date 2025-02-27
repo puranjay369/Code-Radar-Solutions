@@ -8,7 +8,7 @@ int main() {
 
     for(i = 1; i <= rows; ++i) {
         for(j = i; j < rows; ++j) {
-            printf("  ");  // Print space for alignment
+            printf(" ");  // Print space for alignment
         }
         for(k = 1; k <= (2 * i - 1); ++k) {
             printf("* ");
